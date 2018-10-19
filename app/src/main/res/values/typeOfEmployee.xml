@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>@string/EasterChristSelect</item>
+        <item>@string/ypalilos</item>
+        <item>@string/ergatotexnitis</item>
+    </string-array>
+</resources>
