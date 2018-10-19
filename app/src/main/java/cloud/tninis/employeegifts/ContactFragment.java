@@ -91,9 +91,9 @@ public class ContactFragment extends Fragment {
 
 
                                             ;
-                                    GMailSender sender = new GMailSender("Your Goole Email",
-                                            "Email Passowrd");
-                                    sender.sendMail("Employee Bonus - New Contact on "+date, body, contEmail.getText().toString(), "Your Goole Email");
+                                    GMailSender sender = new GMailSender("Your Google Email",
+                                            "Email Password");
+                                    sender.sendMail("Employee Bonus - New Contact on "+date, body, contEmail.getText().toString(), "Your Google Email");
                                     showToast("Το E-mail σας Στάλθηκε");
                                     clearInputs();
                                     showProgress("dismiss");
